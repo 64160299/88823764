@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Workshop #HTML - FORM</h1>
+    <p>
+    <form>
+        <table>
+            <thead>
+                <th colspan="2"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="fname">ชื่อ</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">สกุล</label></td>
+                    <td><input type="text" name="lname" id="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">วัน/เดือน/ปีเกิด</label></td>
+                    <td><input type="date" name="bday" id="bday"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">อายุ</label></td>
+                    <td><input type="number" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">เพศ</label></td>
+                    <td><input type="radio" name="gender" id="men">
+                    <label for="men">ชาย</label>
+                    <input type="radio" name="gender" id="women">
+                    <label for="women">หญิง</label></td>
+                </tr>
+                <tr>
+                    <td><label for="pic">รูป</label></td>
+                    <td><input type="file" name="pic" id="pic"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">ที่อยู่</label></td>
+                    <td><textarea name="address" id="address" cols="20" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="color">สี่ที่ชอบ</label></td>
+                    <td><select name="color" id="color">
+                        <option selected disabled>---เลือกสีที่ชอบ---</option>
+                        <option value="red">สี่แดง</option>
+                        <option value="orange">สีส้ม</option>
+                        <option value="yellow">สีเหลือง</option>
+                        <option value="green">สีเขียว</option>
+                        <option value="cyan">สีฟ้า</option>
+                        <option value="blue">สีน้ำเงิน</option>
+                        <option value="purple">สีม่วง</option>
+                        <option value="pink">สีชมพู</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="song">แนวเพลงที่ชอบ</label></td>
+                    <td><input type="radio" name="song" id="life">
+                    <label for="life">เพื่อชีวิต</label>
+                    <input type="radio" name="song" id="country">
+                    <label for="country">ลูกทุ่ง</label>
+                    <input type="radio" name="song" id="other">
+                    <label for="other">อื่นๆ</label></td>
+                </tr>
+            
+                
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <thead>
+                <th colspan="2"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="info" id="info">
+                    <label for="info">ยินยอมให้เก็บข้อมูล</label></td>
+                </tr>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" name="reset" id="reset"></td>
+                    <td><input type="submit" name="submit" id="submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </p>
+</body>
+
+</html>
