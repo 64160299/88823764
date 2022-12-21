@@ -1,0 +1,15 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 15px;
+    background-color: aliceblue;
+}
