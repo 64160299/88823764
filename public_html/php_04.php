@@ -20,9 +20,9 @@
         for ($i = $start ; $i <= $end ; $i++) {
             echo $i, "\t";
             if ($i%2 == 0) {
-                echo 'Even number';
+                echo "Even number";
             } else if ($i%2 != 0) {
-                echo 'Odd number';
+                echo "Odd number";
             }
             echo "<br>\n";
         }
