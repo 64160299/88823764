@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/my-route/{input_data?}', function ($input_data = "") {
+    return view('my_view');
+});
